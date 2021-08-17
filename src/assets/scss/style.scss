@@ -1,4 +1,7 @@
     @import './normalize';
+    @import './abstracts/variables';
+    @import './abstracts/mixins';
+    @import './fonts';
 
 h1, h2, h3, h4, h5, h6, ul, p{
     margin: 0;
@@ -29,58 +32,7 @@ img{
     object-fit: cover;
 } */
 
-/*    FONTS    */
 
-/* Muli-Bold */
-@font-face {
-    font-family: Muli-Bold;
-    font-style: normal;
-    src: url(../fonts/Muli-Bold.ttf) format('truetype');
-}
-
-/* Muli-Italic */
-@font-face {
-    font-family: Muli-Italic;
-    src: url(../fonts/Muli-Italic.ttf);
-}
-
-/* Muli-Regular */
-@font-face {
-    font-family: Muli-Regular;
-    src: url(../fonts/Muli-Regular.woff);
-}
-
-/* Muli-ExtraBold */
-@font-face {
-    font-family: Muli-ExtraBold;
-    src: url(../fonts/Muli-ExtraBold.woff);
-}
-
-/* Muli-Semi-BoldItalic */
-@font-face {
-    font-family: Muli-SemiBoldItalic;
-    src: url(../fonts/Muli-Semi-BoldItalic.ttf);
-}
-
-.muli__bold{
-    font-family: 'Muli-Bold';
-}
-
-.muli__italic{
-    font-family: 'Muli-Italic';
-}
-
-.muli__regular{
-    font-family: 'Muli-Regular';
-}
-
-.muli__extrabold{
-    font-family: 'Muli-ExtraBold';
-}
-
-.muli__semibolditalic{
-    font-family: 'Muli-SemiBoldItalic';
-}
 
 
     @import './header';
@@ -90,9 +42,10 @@ img{
     @import './social';
     @import './components/button';
     @import './components/logo';
-    @import 'smoothies';
-    @import 'variety';
-    @import 'about';
+    @import './smoothies';
+    @import './variety';
+    @import './about';
+    @import './products';
 
 
 
@@ -129,84 +82,7 @@ img{
 
 /*    PRODUCTS    */
 
-.products__list{
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.products__list-item{
-    width: 25%;
-}
-.products__list-link{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 125px 0 80px 0;
-    color: #fff;
-    text-decoration: none;
-}
-.products__list-item:first-child .products__list-link{
-    background-color: #65281a;
-}
-.products__list-item:nth-child(2) .products__list-link{
-    background-color: #1c896d;
-}
-.products__list-item:nth-child(3) .products__list-link{
-    background-color: #f3ae38;
-}
-.products__list-item:last-child .products__list-link{
-    background-color: #c44519;
-}
-.products__title{
-    font-size: 24px;
-    margin-top: 25px;
-    margin-bottom: 10px;
-}
-.products__size{
-    font-size: 21px;
-}
-.products__btn{
-    margin-top: 65px;
-    font-size: 21px;
-    background-color: transparent;
-    border: 2px solid #fff;
-    padding: 20px 35px;
-    color: #fff;
-    border-radius: 35px;
-    -webkit-border-radius: 35px;
-    -moz-border-radius: 35px;
-    -ms-border-radius: 35px;
-    -o-border-radius: 35px;
-    width: 205px;
-    height: 60px;
-    display: flex;
-    align-items: center;   
-    position: relative;
-}
 
-.products__btn::after{
-    content: "";
-    display: block;
-    background-image:url('../images/Arrow.png');
-    background-size: 30px 16px;
-    width: 30px;
-    height: 16px;
-    position: absolute;
-    top: 50%;
-    right: 15%;
-    transform: translateY(-50%);
-    -webkit-transform: translateY(-50%);
-    -moz-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    -o-transform: translateY(-50%);
-    filter: brightness(10);
-    -webkit-filter: brightness(10);
-}
 
 .button__img{
     margin-left: 60px;
