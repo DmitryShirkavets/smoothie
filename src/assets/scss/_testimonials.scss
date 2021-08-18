@@ -1,0 +1,66 @@
+
+
+.testimonials{
+    background-color: #672f1b;
+    position: relative;
+
+    &::after{
+        content: "";
+        display: block;
+        width: 410px;
+        height: 301px;
+        background-image: url('../images/Dots.png');
+        background-size: 410px 301px;
+        position: absolute;
+        top: -13%;
+        right: 2%;
+    }
+    &__container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+        margin: 0 auto;
+        padding: 108px 0 215px;
+        position: relative;
+    }
+    &__back{
+        text-align: center;
+        margin: 0;
+        width: 100%;
+        text-transform: capitalize;
+        font-size: 200px;
+        color: #5b220f;
+        position: absolute;
+        top: 45%;
+        left: 35%;
+        transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+    }
+    &__content{
+        z-index: 1;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 120px;
+    }
+    &__title{
+        margin: 0;
+        color: #f7ae3b;
+        font-size: 50px;
+    }
+    
+    &__text{
+        font-size: 18px;
+        color: #fff;
+        margin-right: 55px;
+        margin-top: 25px;
+        line-height: 1.9;
+    }
+}
+
