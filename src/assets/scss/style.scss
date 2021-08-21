@@ -26,15 +26,6 @@ img{
     user-select: none;
 }
 
-/* img{
-    max-width: 100%;
-    width: 100%;
-    object-fit: cover;
-} */
-
-
-
-
     @import './header';
     @import './common/container';
     @import './menu';
@@ -55,97 +46,35 @@ img{
     @import './payment';
     @import './follow';
 
-
-
-
-
-
-
-
-
-
-
-
     .title--orange-clr{
         color: #f7ae3b;
     }
 
-
-    .about__title--lime-txt{
+    .title--lime-clr{
         color: #cae941;
     }
 
+    .title--orange-txt{
+        color: #f2612d;
+        text-transform: uppercase;
+    }
 
-
-
-
-
-/*    PRODUCTS    */
-
-
-
-.button__img{
-    margin-left: 60px;
-    filter: brightness(10);
-    -webkit-filter: brightness(10);
-}
-
-/*    STORY    */
-
-
-
-
-/*    TESTIMONIALS SECTION    */
-
-
-.testimonials__title--orange-txt{
-    color: #f2612d;
-    text-transform: uppercase;
-}
-
-.testimonials__text--orange-clr{
-    color: #f7ae3b;
-    margin-top: 5px;
-}
-
-/*    BLOG    */
-
-
-
-
-/*    INSTAGRAM   */
-
-
-
-
-/*    FOOTER    */
-
-
-
-
-
-
-.gotop{
-    width: 50px;
-    height: 50px;
-    border: none;
-    background-color: #f2662f;
-    border-radius: 10%;
-    -webkit-border-radius: 10%;
-    -moz-border-radius: 10%;
-    -ms-border-radius: 10%;
-    -o-border-radius: 10%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    right: 100px;
-    bottom: 38px;
-}
-
-
-
-
-
+    .gotop{
+        width: 50px;
+        height: 50px;
+        border: none;
+        background-color: #f2662f;
+        border-radius: 10%;
+        -webkit-border-radius: 10%;
+        -moz-border-radius: 10%;
+        -ms-border-radius: 10%;
+        -o-border-radius: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        right: 100px;
+        bottom: 38px;
+    }
 
     @import './media';

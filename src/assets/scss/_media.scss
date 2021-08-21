@@ -85,6 +85,7 @@
     
     .about__img{
         position: static;
+        width: 100%;
     }
 
     .about__content{
@@ -219,6 +220,30 @@
         font-size: 1rem;
     }
 
+    /*    ABOUT    */
+
+    .about__content{
+        padding-top: 50px;
+        padding-left: 0;
+    }
+
+    .about__title{
+        font-size: 2.5rem;
+    }
+    
+    .about__list{
+        font-size: 1.3rem;
+    }
+
+    .about__content::before{
+        display: none;
+    }
+
+    .about__btn{
+        font-size: 1.2rem;
+        min-width: 100%;
+    }
+
     /*    PRODUCTS    */
 
     .products__list{
@@ -254,7 +279,7 @@
 
 
 
-    .about, .testimonials, .footer{
+    .testimonials, .footer{
         display: none;
     }
 }
