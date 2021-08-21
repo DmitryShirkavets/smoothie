@@ -14,7 +14,6 @@
     &__title{
         font-size: 26px;
         color: #fff;
-        margin: 0;
         margin-bottom: 30px;
     }
     &__input{
@@ -35,12 +34,10 @@
         }
     }
     &__list{
-        list-style: none;
         display: flex;
         gap: 0 25px;
         margin-left: 180px;
         margin-top: 30px;
-        padding: 0;
     } 
     &__item{
         &:first-child{

@@ -21,14 +21,9 @@
         display: flex;
         justify-content: space-between;
     }
-    &__list{
-        list-style: none;
-        padding: 0;
-    }
     &__list-link{
         font-size: 18px;
         color: #6d450c;
-        text-decoration: none;
     }
     &__list-item{
         margin-bottom: 20px;

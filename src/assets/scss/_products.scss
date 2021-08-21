@@ -4,13 +4,8 @@
     $products: &;
 
     &__list{
-        margin: 0;
-        padding: 0;
-        list-style: none;
         width: 100%;
         display: flex;
-        justify-content: space-between;
-        align-items: center;
     }
 
     &__list-item{
@@ -40,7 +35,6 @@
         align-items: center;
         padding: 125px 0 80px 0;
         color: #fff;
-        text-decoration: none;
     }
 
     &__title{
@@ -60,15 +54,8 @@
         border: 2px solid #fff;
         padding: 20px 35px;
         color: #fff;
-        border-radius: 35px;
-        -webkit-border-radius: 35px;
-        -moz-border-radius: 35px;
-        -ms-border-radius: 35px;
-        -o-border-radius: 35px;
         width: 205px;
         height: 60px;
-        display: flex;
-        align-items: center;   
         position: relative;
 
         &::after{
