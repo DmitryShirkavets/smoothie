@@ -14,12 +14,11 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        color: #f2612d;
-        font-size: 25px;
+        @include text(25px, $varietyColor);
         font-family: 'Muli-ExtraBold';
         border: 1px; 
         border-style: none solid solid none; 
-        border-color: #f6edde;
+        border-color: $borderColor;
     }
 
     &__list-item{

@@ -2,21 +2,20 @@
 
 .btn{
     cursor: pointer;
-    font-size: 24px;
+    @include text(24px, $textColorLight);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: #fff;
     text-transform: capitalize;
     padding: 22px 39px;
     border: none;
-    border-radius: 35px;
-    -webkit-border-radius: 35px;
-    -moz-border-radius: 35px;
-    -ms-border-radius: 35px;
-    -o-border-radius: 35px;
+    border-radius: $btnBorderRadius;
+    -webkit-border-radius: $btnBorderRadius;;
+    -moz-border-radius: $btnBorderRadius;;
+    -ms-border-radius: $btnBorderRadius;;
+    -o-border-radius: $btnBorderRadius;;
 }
 
 .btn--green-bg{
-    background-color: #0aa566;
+    background-color: $btnBackColor;
 }

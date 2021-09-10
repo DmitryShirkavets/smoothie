@@ -1,7 +1,7 @@
 
 
 .testimonials{
-    background-color: #672f1b;
+    background-color: $primaryColor;
     position: relative;
 
     &::after{
@@ -28,8 +28,7 @@
         text-align: center;
         width: 100%;
         text-transform: capitalize;
-        font-size: 200px;
-        color: #5b220f;
+        @include text(200px, $additionalColor);
         position: absolute;
         top: 45%;
         left: 35%;
@@ -49,13 +48,11 @@
         margin-top: 120px;
     }
     &__title{
-        color: #f7ae3b;
-        font-size: 50px;
+        @include text(50px, $accentColor);
     }
     
     &__text{
-        font-size: 18px;
-        color: #fff;
+        @include text(18px, $textColorLight);
         margin-right: 55px;
         margin-top: 25px;
         line-height: 1.9;
